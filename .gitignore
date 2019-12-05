@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# nuxt.js build output
+.nuxt
+
+# no .DS_Store
+*.DS_Store
