@@ -1,0 +1,21 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+.foot-panel.more-posts::before {
+    content: "👌";
+}
+
+.foot-panel::before,
+.recommended::before {
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    right: -0.9rem;
+    align-items: center;
+    top: -0.8rem;
+    border-radius: 50%;
+}
