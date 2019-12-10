@@ -285,3 +285,37 @@ article h3::after {
     border-radius: 2px;
     background: #008f68;
 }
+
+
+p.snip-first, div[itemprop="articleSection"]>p:first-of-type {
+    margin-bottom: 1em;
+    margin-top: 1.9em;
+    border-left: 4px solid var(--yellow3);
+    padding-left: .8em;
+    text-align: justify;
+}
+
+article ol li, article p, article ul li {
+    font-size: 24px;
+}
+
+p {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -ms-word-break: normal;
+    word-break: normal;
+}
+
+body{
+    height: 150vh;
+}
+
+.progress {
+    position: fixed;
+    /* width: 100%; */
+    width: var(--scroll);
+    height: 4px;
+    z-index: 3;
+    background: var(--green1);
+}

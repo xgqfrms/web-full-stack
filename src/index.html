@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hans" class="dark">
+<html lang="zh-Hans">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,20 @@
     <meta name="generator" content="VS code">
     <title></title>
     <link rel="stylesheet" href="./index.css">
+    <!-- meta -->
+    <meta name="theme-color" content="#138e69">
+    <!-- lin rel types -->
+    <link rel="dns-prefetch" href="//alligator.io">
+    <link rel="canonical" href="https://alligator.io/html/preload-prefetch/">
+    <link rel="manifest" href="/assets/manifest.json">
+    <!-- media query & print -->
+    <link id="codefund-style" rel="stylesheet" media="all" href="https://codefund.io/packs/css/code_fund_ad-671bae33.css">
+    <!-- prefetch & preload -->
+    <link rel="prefetch" href="https://alligator.io/html/preload-prefetch/#wrapping-up">
 </head>
-<body>
+<body class="dark">
+    <!-- read progress & scroll height -->
+    <div class="progress" style="--scroll:0%;"></div>
     <header>
         <h1></h1>
     </header>
@@ -27,5 +39,16 @@
     <footer>
         <p>copyright&copy; xgqfrms 2019</p>
     </footer>
+    <!-- css -->
+    <link rel="stylesheet" as="style" property="stylesheet" onload="this.onload=null;this.rel=&quot;stylesheet&quot;" href="https://d33wubrfki0l68.cloudfront.net/css/aa24b27b5f064c3f8625776065f847c67b073fbb/assets/css/c.css">
+    <!-- noscript & fallback -->
+    <noscript>
+        <link rel='stylesheet' property='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/css/aa24b27b5f064c3f8625776065f847c67b073fbb/assets/css/c.css'/>
+    </noscript>
+    <!-- defer & async -->
+    <script defer="" src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+    <script async="" src="https://d33wubrfki0l68.cloudfront.net/js/3f7cb00bfd6e2ce64f1d20f97cde6065d32beb69/assets/js/lazyload.min.js"></script>
+    <!-- js -->
+    <script src="./index.js"></script>
 </body>
 </html>
