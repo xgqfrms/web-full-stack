@@ -80,5 +80,8 @@
         "statusBar.border": "#663399",
         "titleBar.border": "#663399"
     },
-    "peacock.color": "#639"
+    "peacock.color": "#639",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
