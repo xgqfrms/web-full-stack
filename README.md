@@ -28,3 +28,15 @@ $ ane env=dev
 $ node ane env=dev
 
 ```
+
+## jest
+
+
+```sh
+# jest
+$ yarn add -D jest
+
+# babel
+$ yarn add -D babel-jest @babel/core @babel/preset-env babel-plugin-dynamic-import-node
+
+```
